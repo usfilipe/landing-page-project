@@ -1,170 +1,179 @@
 body {
-  margin: 0;
-  color:white;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.header{
-    background-color: #1F2937;
-    height: 350px;
-}
-
-.content-header{
-    max-width: 400px;
-}
-
-.content1{
-    height: 350px;
-    text-align: center;
-    color: black;
-    padding-top: 10px;
-    padding-top: 10px;
-}
-
-.content2{
-    background-color:#E5E7EB;
-    height: 350px;
-    color: black;
-    padding-top: 10px;
-    padding-top: 10px;
-}
-
-.content3{
-    height: 120px;
-    display: flex;
-    margin-bottom: 100px;
-
-}
-
-.sub1-header{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 300px;
-    margin-left: 300px;
-    margin-bottom: 20px;
-}
-
-.sub2-header{
-    display: flex;
-    justify-content: space-between;
-    margin-right: 300px;
-    margin-left: 300px;
-    gap: 50px
-}
-
-.menu{
-    display: flex;
-    gap: 20px;
     margin: 0;
-    margin-top: 20px; 
-}
-
-.t-image{
-    height: 150px;
-    width: 150px;
-    border: #3882f6;
-    border-style: solid;
-    border-radius: 8px;
-}
-
-.image-info{
-    max-width: 150px
-}
-
-.text{
-    font-size: 12px;
-    max-width: 200px;
-    text-align: justify;
-    
-}
-
-.content1-images{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-}
-
-.signup-btn{
-    font-size: 15px;
-    border-radius: 10px;
-    background-color: #3882f6;
-    width: 60px;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-.image-header{
-    border-radius: 5px ;
-    height:250px;
-    margin-bottom: 25px;
-}
-
-.logo{
-    font-weight: bold;
-    margin-top: 20px;
-    font-style: italic;
-}
-
-.quote{
-    font-size: 36px;
-    font-style: italic;
-    font-weight: lighter;
-    margin-top: 80px;
-    text-align: left;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.quote2{
-    font-weight: bold;
-    text-align: right;
-    font-size:22px ;
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.blue-box{
-    background-color:#3882f6;
-    border-radius: 10px;
-    margin-top: 50px;
-    margin-right: 300px;
-    margin-left: 300px;
-    height: 120px;
-    width: 850px;
-    display: flex;
-    flex-direction: row;
-    padding-left: 80px;
-    padding-right: 80px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.button-box{
-    font-size: 15px;
-    border-width: thin;
-    border-style: solid;
-    border-radius: 10px;
-    background-color: #3882f6;
-    width: 90px;
-    height: 30px;
-    padding-top: 8px;
-    text-align: center;
-}
-
-ul{
-    list-style-type: none;
-}
-
-.footer{
-    padding-top: 15px;
-    height: 50px;
-    width: 100%;
-    background-color:#1F2937 ;
-    text-align: center;
-    bottom:0;
-    left:0;
-    margin-top: auto;
-    vertical-align: middle;
-}
+  
+    color:white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .header{
+      background-color: #1F2937;
+      height: 350px;
+      
+  }
+  
+  .menu-top{
+      display: flex;
+      justify-content:space-between;
+      max-width: 900px;
+      margin: auto;
+  }
+  .content-header{
+      max-width: 400px;
+  }
+  
+  .content1{
+      height: 350px;
+      text-align: center;
+      color: black;
+      padding-top: 10px;
+      padding-top: 10px;
+  }
+  
+  .content2{
+      background-color:#E5E7EB;
+      height: 350px;
+      color: black;
+      padding-top: 10px;
+      padding-top: 10px;
+  }
+  
+  .content3{
+      height: 120px;
+      display: flex;
+      margin-bottom: 100px;
+  
+  }
+  
+  .sub1-header{
+      display: flex;
+      margin-right: 300px;
+      margin-left: 300px;
+      justify-content: space-between;
+      margin-bottom: 20px;
+  }
+  
+  .sub2-header{
+      display: flex;
+      justify-content: space-between;
+      max-width: 900px;
+      margin:auto;
+      margin-top: 25px;
+      
+  }
+  
+  .menu{
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      margin-top: 20px; 
+  }
+  
+  .t-image{
+      height: 150px;
+      width: 150px;
+      border: #3882f6;
+      border-style: solid;
+      border-radius: 8px;
+  }
+  
+  .image-info{
+      max-width: 150px
+  }
+  
+  .text{
+      font-size: 12px;
+      max-width: 200px;
+      text-align: justify;
+      
+  }
+  
+  .content1-images{
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+  }
+  
+  .signup-btn{
+      font-size: 15px;
+      border-radius: 10px;
+      background-color: #3882f6;
+      width: 60px;
+      color: white;
+      text-align: center;
+      padding: 10px;
+  }
+  
+  .image-header{
+      border-radius: 5px ;
+      height:250px;
+      margin-bottom: 25px;
+  }
+  
+  .logo{
+      font-weight: bold;
+      margin-top: 20px;
+      font-style: italic;
+  }
+  
+  .quote{
+      font-size: 36px;
+      font-style: italic;
+      font-weight: lighter;
+      margin-top: 80px;
+      text-align: left;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .quote2{
+      font-weight: bold;
+      text-align: right;
+      font-size:22px ;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .blue-box{
+      background-color:#3882f6;
+      border-radius: 10px;
+      margin-top: 50px;
+      margin-right: 300px;
+      margin-left: 300px;
+      height: 120px;
+      width: 850px;
+      display: flex;
+      flex-direction: row;
+      padding-left: 80px;
+      padding-right: 80px;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .button-box{
+      font-size: 15px;
+      border-width: thin;
+      border-style: solid;
+      border-radius: 10px;
+      background-color: #3882f6;
+      width: 90px;
+      height: 30px;
+      padding-top: 8px;
+      text-align: center;
+  }
+  
+  ul{
+      list-style-type: none;
+  }
+  
+  .footer{
+      padding-top: 15px;
+      height: 50px;
+      width: 100%;
+      background-color:#1F2937 ;
+      text-align: center;
+      bottom:0;
+      left:0;
+      margin-top: auto;
+      vertical-align: middle;
+  }
